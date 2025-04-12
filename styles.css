@@ -77,11 +77,18 @@ body {
     
 }
 
+img {
+    /* display: inline-block; */
+    max-width: 20em;
+    max-height: 20em;
+}
+
 .main {
     align-items: center;
     padding: 1em;
-    gap: .7em;
+    gap: 4em;
     margin: 1em;
+    
 }
 
 .blog-content {
@@ -89,6 +96,7 @@ body {
     justify-content: center;
     flex-direction: column; */
     gap: .5em;
+
 }
 
 .more {
@@ -96,6 +104,10 @@ body {
     font-weight: 900;
     font-size: 1em;
     margin: .5em;
+}
+
+.hide {
+    display: none;
 }
 
 footer {
