@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Navigation styles*/
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em .5em;
+    width: 100%;
+}
+
+.links ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    padding-right: .5em;
+}
+
+.top {
+    background-image: url(./assets/article-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 90vw;
+    height: 20%; */
+    padding: 6em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: .6em;
+    text-align: left;
+}
+
+.text,
+.top-head {
+    color: white;
+    line-height: 1.2em;
+}
+
+.top-head {
+    font-size: 1.7em;
+    font-weight: 900;
+}
+
+.current {
+    font-weight: 200;
+}
+
+.body {
+    font-weight: 500;
+}
+
+/*Main content style*/
+
+.main,
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main {
+    align-items: center;
+    padding: 1em;
+    gap: .7em;
+    margin: 1em;
+}
+
+.blog-content {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    gap: .5em;
+}
+
+.more {
+    color: black;
+    font-weight: 900;
+    font-size: 1em;
+    margin: .5em;
+}
+
+footer {
+    background-color: #202020;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+}
